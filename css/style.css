@@ -1,0 +1,114 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-size: 1em;
+	background-color: rgb(225, 225, 230);
+	color: rgb(20, 20, 25);
+}
+a {
+	color: inherit;
+}
+.links {
+	display: block;
+	width: 100%;
+	text-align: left;
+	background-color: rgb(20, 20, 25);
+}
+.links a {
+	padding: 1em 2em;
+	display: inline-block;
+	text-decoration: none;
+	color: rgb(200, 200, 200);
+}
+.links a:hover {
+	background-color: rgba(225, 225, 230, 0.2);
+}
+
+.links-right {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 1em;
+	margin: 0;
+	padding: 0;
+}
+.links-right img {
+	padding: 5px;
+	height: 2.5em;
+	background-color: rgb(205, 205, 210);
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+.links-right img:hover, .links-right .icon:hover {
+	background-color: rgb(215, 215, 220);
+}
+
+.sub-links {
+	display: block;
+	width: 100%;
+	text-align: left;
+	background-color: rgb(215, 215, 220);
+}
+.sub-links a {
+	padding: 0.5em 2em;
+	display: inline-block;
+	text-decoration: none;
+	color: inherit;	
+	margin: 0em;
+}
+
+.sub-links a:hover {
+	background-color: rgb(225, 225, 230);	
+}
+.sub-links a.active {
+	background-color: rgb(225, 225, 230);	
+}
+
+
+article {
+	margin: 2em auto;
+	position: relative;
+	text-align: justify;
+	max-width: 45em;
+	min-height: 20em;
+	padding: 0em 1em;
+	line-height: 2em;
+}
+
+article h1, article h2 {
+	width: 100%;
+	text-align: center;
+	font-family: serif;
+	text-transform: uppercase;
+	font-size: 3em;
+	word-spacing: 0.3em;
+	margin: 0.3em 0em;
+}
+article h2 {
+	font-size: 1.5em;
+	text-transform: none;
+}
+article .profile {
+	padding: 0px;
+	margin-left: 16.5em;
+	height: 14em;
+	border-radius: 7em;
+	box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3);
+}
+article .profile:hover {
+	transform: scale(1.02);
+}
+
+.footer {
+	padding: 1em;
+	margin: 0em auto;
+	position: relative;
+	text-align: center;
+	max-width: 40em;
+	border-top: solid 1px rgb(200, 200, 200);
+	color: rgb(150, 150, 165);
+}
+.footer a:hover {	
+	color: rgb(20, 20, 25);
+}
