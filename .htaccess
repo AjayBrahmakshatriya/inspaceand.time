@@ -1,0 +1,21 @@
+RedirectMatch 403 ^/.git/.*$
+RedirectMatch 403 ^/.git/?$
+
+RewriteEngine on
+
+# Add trailing slashes first
+# We add trailing slashes to directories first so as to ensure that the backend doesn't redirect
+# This is probably a hack. Figure out how to make it such that the redirect from backend is modified properly
+
+RewriteCond %{REQUEST_URI} ^([^.]+)[^/]$
+RewriteRule ^([^.]+)$ /$1/ [L,R]
+
+# Configuration for subdomains
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteCond %{HTTP_HOST} ^(.*)\.intimeand\.space$ [NC]
+RewriteRule ^(.*)$ https://intimeand.space/subdomains/%1/$1 [P]
+
+
+
+DirectoryIndex index.php
+DirectoryIndex index.html
