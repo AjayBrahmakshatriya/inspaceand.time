@@ -51,6 +51,17 @@ a:hover {
 	border-bottom: none;
 }
 
+.icons {
+	border-bottom: none;
+	height: 2em;
+}
+.icons-link {
+	border-bottom: none;
+}
+#cv-download {
+	position: absolute;
+	right: 0px;
+}
 .sub-links {
 	display: block;
 	width: 100%;
@@ -119,4 +130,8 @@ article .profile:hover {
 }
 .footer a:hover {	
 	color: rgb(20, 20, 25);
+}
+iframe {
+	border: none;
+	width: 100%
 }
