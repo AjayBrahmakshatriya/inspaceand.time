@@ -12,25 +12,25 @@ function profile_picture_close() {
 }
 profile_state = 0;
 window.onload = function() {
+	if (document.getElementById("imgwrapper")) {
+		document.getElementById("imgwrapper").addEventListener("click", function (ev) {
+			if (profile_state == 0) {
+				profile_picture_open();
+				profile_state = 1;
+			} else {
+				profile_picture_close();
+				profile_state = 0;
+			}
+			ev.stopPropagation();	
+		}, false);
 
-	document.getElementById("imgwrapper").addEventListener("click", function (ev) {
-		if (profile_state == 0) {
-			profile_picture_open();
-			profile_state = 1;
-		} else {
-			profile_picture_close();
-			profile_state = 0;
-		}
-		ev.stopPropagation();	
-	}, false);
-
-	document.body.addEventListener("click", function() {
-		if (profile_state == 1) {
-			profile_picture_close();
-			profile_state = 0;
-		}
-	}, false);
-
+		document.body.addEventListener("click", function() {
+			if (profile_state == 1) {
+				profile_picture_close();
+				profile_state = 0;
+			}
+		}, false);
+	}
 }
 
 

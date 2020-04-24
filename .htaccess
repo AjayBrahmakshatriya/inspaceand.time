@@ -16,6 +16,8 @@ RewriteCond %{HTTP_HOST} ^(.*)\.intimeand\.space$ [NC]
 RewriteRule ^(.*)$ https://intimeand.space/subdomains/%1/$1 [P]
 
 
-
+<FilesMatch ".(eot|otf|ttf|woff)">
+  Header set Access-Control-Allow-Origin "*"
+</FilesMatch>
 DirectoryIndex index.php
 DirectoryIndex index.html
