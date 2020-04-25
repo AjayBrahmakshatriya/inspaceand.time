@@ -21,3 +21,4 @@ RewriteRule ^(.*)$ https://intimeand.space/subdomains/%1/$1 [P]
 </FilesMatch>
 DirectoryIndex index.php
 DirectoryIndex index.html
+Options -Indexes

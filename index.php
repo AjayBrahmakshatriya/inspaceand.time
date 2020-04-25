@@ -2,7 +2,7 @@
 <?php include 'root-template.php'; ?>
 
 <script>document.getElementById("link-home").classList.add("active");</script>
-<center><div id="imgwrapper" class="imgwrapperclosed"> <img src="images/commit.jpg" class="profile profileclosed" id="profilepicture"/></div></center>
+<center><a id="imgwrapper" class="imgwrapperclosed"> <img src="images/commit.jpg" class="profile profileclosed" id="profilepicture"/></a></center>
 <h1>Ajay Brahmakshatriya</h1>
 <h2><i>Coffee and Computers - In that order</i></h2>
 <p>

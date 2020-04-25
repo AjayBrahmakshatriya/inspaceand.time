@@ -1,6 +1,7 @@
 <?php include '../template.php'; ?>
 <?php include '../root-template.php'; ?>
 <script>document.getElementById("link-publications").classList.add("active");</script>
+<!--<a href="https://scholar.google.com/citations?user=1O9XsSoAAAAJ&hl=en" class="icons-link"><img class="icons"  src="/../images/googlescholar.svg"/></a>-->
 <p>
 <b>Optimizing Ordered Graph Algorithms with GraphIt</b> <br>
 Yunming Zhang, <b>Ajay Brahmakshatriya</b>, Xinyi Chen, Laxman Dhulipala, Shoaib Kamil, Saman Amarasinghe, Julian Shun <br>
