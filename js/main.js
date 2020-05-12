@@ -18,7 +18,7 @@ function profile_picture_close() {
 }
 window.onload = function() {
 	if (document.getElementById("imgwrapper")) {
-		setTimeout(function() {if(never_expanded)profile_picture_open();}, 15000);
+		setTimeout(function() {if(never_expanded)profile_picture_open();}, 6000);
 		document.getElementById("imgwrapper").addEventListener("click", function (ev) {
 			if (profile_state == 0) {
 				profile_picture_open();

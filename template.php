@@ -5,10 +5,22 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title>InTimeand.Space</title>
+<?php if(isset($ogimg)) { ?>
+<meta property="og:image" content="<?php echo $ogimg; ?>" />
+<?php } ?>
+<title>Ajay Brahmakshatriya</title>
 <link rel="stylesheet" href="https://intimeand.space/css/style.css" />
 <script src="https://intimeand.space/js/main.js"> </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164382133-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-164382133-1');
+</script>
+
 
 </head>
 
@@ -25,5 +37,4 @@
 
 	</div>
 
-	
 		

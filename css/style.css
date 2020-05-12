@@ -96,16 +96,14 @@ a:hover {
 	border-bottom: none;
 	height: 2em;
 	position: absolute;
-	right: 0em;
-	top: 1em;
 }
 .icons-link {
 	border-bottom: none;
 }
 #cv-download {
 	position: absolute;
-	right: 0px;
-	top: 1em;
+	right: 1.5em;
+	top: 0.5em;
 }
 .sub-links {
 	display: block;
@@ -248,16 +246,16 @@ iframe {
 	border: none;
 	width: 100%
 }
-.cv-iframe {
-	background-color: white;
-	padding: 1em;
+.iframecontainer {
+	width: auto;
+	margin-left: 1em;
+	margin-right: 1em;
+	position: relative;
+	top: 1em;
 }
-@media screen and (max-width: 45em) {
-	.cv-iframe {
-		background-color: white;
-		padding: 0em;
-	}
-	
+.iframeoutercontainer {
+	width: 100%;
+	background-color: white;
 }
 
 
