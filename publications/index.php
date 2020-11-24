@@ -1,7 +1,32 @@
 <?php include '../template.php'; ?>
 <?php include '../root-template.php'; ?>
 <script>document.getElementById("link-publications").classList.add("active");</script>
+
+<p>
+<b>BuildIt: A type based multistage programming framework for code generation in C++</b> <br>
+<b>Ajay Brahmakshatriya</b>, Saman Amarasinghe <br>
+To appear: Proceedings of the 2021 International Symposium on Code Generation and Optimization [<a href="#" target="_blank">CGO 2021</a>]
+</p>
+<p>&nbsp;</p>
+
+
+<p>
+<b>Techniques for compiling graph applications for GPUs</b> <br>
+<b>Ajay Brahmakshatriya</b>, Yunming Zhang, Changwan Hong, Shoaib Kamil, Julian Shun, Saman Amarasinghe <br>
+To appear: Proceedings of the 2021 International Symposium on Code Generation and Optimization [<a href="#" target="_blank">CGO 2021</a>]
+</p>
+<p>&nbsp;</p>
+
 <!--<a href="https://scholar.google.com/citations?user=1O9XsSoAAAAJ&hl=en" class="icons-link"><img class="icons"  src="/../images/googlescholar.svg"/></a>-->
+
+<p>
+<b>Universal Graph Framework: Achieving High-Performance across Algorithms, Graph Types, and Architectures</b> <br>
+<b>Ajay Brahmakshatriya</b><br>
+SM Thesis, Massachuesetts Institute of Technology<br>
+Cambridge, MA Aug, 2020 [<a href="http://groups.csail.mit.edu/commit/papers/2020/ajay-sm-thesis.pdf" target="_blank">COMMIT</a>]
+</p>
+<p>&nbsp;</p>
+
 <p>
 <b>Optimizing Ordered Graph Algorithms with GraphIt</b> <br>
 Yunming Zhang, <b>Ajay Brahmakshatriya</b>, Xinyi Chen, Laxman Dhulipala, Shoaib Kamil, Saman Amarasinghe, Julian Shun <br>
