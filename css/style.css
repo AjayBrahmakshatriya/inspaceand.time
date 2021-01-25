@@ -11,10 +11,13 @@ html {
 body {
 	margin: 0;
 	padding: 0;
-	font-family: optima;
+	/*font-family: optima;*/
+	font-family: monospace;
 	font-size: 1em;
-	background-color: rgb(225, 225, 230);
-	color: rgb(20, 20, 25);
+	/*background-color: rgb(225, 225, 230);*/
+	background-color: #292a2d;
+	/*color: rgb(20, 20, 25);*/
+	color: #a9a9b3;
 	height: 100%;
 	overflow: hidden;
 }
@@ -40,7 +43,8 @@ a img:hover {
 	display: block;
 	width: 100%;
 	text-align: left;
-	background-color: rgb(20, 20, 25);
+	/*background-color: rgb(20, 20, 25);*/
+	background-color: #212020;
 	position: fixed;
 	top: 0em;
 	z-index: 10;
@@ -116,11 +120,12 @@ a img:hover {
 	display: block;
 	width: 100%;
 	text-align: left;
-	background-color: rgb(215, 215, 220);
+	/*background-color: rgb(215, 215, 220);*/
+	background-color: #212020;
 	position: fixed;
 	top: 3em;
 	z-index: 10;
-	box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.3);
+	/*box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.3);*/
 }
 @media screen and (max-width: 45em) {
 	.sub-links {
@@ -138,10 +143,12 @@ a img:hover {
 }
 
 .sub-links a:hover {
-	background-color: rgb(225, 225, 230);	
+	/*background-color: rgb(225, 225, 230);	*/
+	background-color: #292a2d;
 }
 .sub-links a.active {
-	background-color: rgb(225, 225, 230);	
+	/*background-color: rgb(225, 225, 230);	*/
+	background-color: #292a2d;
 }
 
 
@@ -206,6 +213,7 @@ article h2 {
 	animation-duration: 2s;
 	cursor: pointer;
 	display: block;
+	border: 0px;
 }
 #imgwrapper:hover {
 	transform: scale(1.02);
@@ -267,16 +275,18 @@ iframe {
 }
 
 .code-block {
-	background-color: white;
+	/*background-color: white;*/
+	background-color: #212020;
+	
 	font-family: monospace;
 	padding: 1em;
 	line-height: 1.5em;
 	width: 100%;
 	overflow-wrap: break-word;
 	text-align: left;
-	
 }
 .code-keyword {
-	color: blue;
+	/*color: blue;*/
+	color: #36663f;
 }
 

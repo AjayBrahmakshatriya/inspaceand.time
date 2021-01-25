@@ -1,8 +1,12 @@
 RedirectMatch 403 ^/.git/.*$
 RedirectMatch 403 ^/.git/?$
-RedirectMatch 403 .*\.txt$
+#RedirectMatch 403 .*\.txt$
+
 
 RewriteEngine on
+
+RewriteCond %{REQUEST_URI} !/robots\.txt$ [nocase]
+RewriteRule \.txt$ - [forbidden,last]
 
 # Add trailing slashes first
 # We add trailing slashes to directories first so as to ensure that the backend doesn't redirect

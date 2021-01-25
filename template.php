@@ -9,7 +9,7 @@
 <meta property="og:image" content="<?php echo $ogimg; ?>" />
 <?php } ?>
 <title><?php if(isset($ogtitle)) echo $ogtitle; else echo "Ajay Brahmakshatriya";?></title>
-<link rel="stylesheet" href="https://intimeand.space/css/style.css" />
+<link rel="stylesheet" href="https://intimeand.space/css/style.css?v=<?php echo uniqid();?>" />
 <link rel="icon" type="image/png" href="https://intimeand.space/images/oldman.jpg">
 <script src="https://intimeand.space/js/main.js"> </script>
 <!-- Global site tag (gtag.js) - Google Analytics -->

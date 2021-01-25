@@ -8,7 +8,7 @@
 <br>
 <h1>Build&rarr;It</h1><br>
 <a class="icons-link" target="_blank" href="https://github.com/AjayBrahmakshatriya/buildit"><img src="https://img.shields.io/badge/BuildIt-MIT-brightgreen"/></a>&nbsp;<a class="icons-link" target="_blank" href="https://github.com/AjayBrahmakshatriya/buildit/fork"><img src="https://img.shields.io/github/forks/AjayBrahmakshatriya/buildit"/></a>&nbsp;<a class="icons-link" href="https://github.com/AjayBrahmakshatriya/buildit/" target="_blank"><img src="https://img.shields.io/github/stars/AjayBrahmakshatriya/buildit"/></a><br>
-<a href="https://travis-ci.org/AjayBrahmakshatriya/buildit" class="icons-link" target="_blank"><img src="https://api.travis-ci.org/AjayBrahmakshatriya/buildit.svg?branch=master"/></a>
+<a href="https://travis-ci.com/github/BuildIt-lang/buildit" class="icons-link" target="_blank"><img src="https://travis-ci.com/BuildIt-lang/buildit.svg?branch=master"/></a>
 <h3>&quot;Every problem in Computer Science can be solved with a level of indirection and every problem in Software Engineering can be solved with a step of code-generation&quot;</h3><br>
 </center>
 <b>Build&rarr;It</b> is a lightweight<sup>1</sup> type-based<sup>2</sup> multi-stage programming<sup>3</sup> framework in C++. Besides extracting expressions and statements, <b>Build&rarr;It</b> supports extracting rich data-dependent control flow like if-then-else conditions and for and while loops using its novel re-execution strategy to explore all control-flow paths in the program. 
