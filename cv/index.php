@@ -4,7 +4,7 @@
 <div class="iframeoutercontainer">
 <div class="iframecontainer">
 <a href="/docs/CV_AjayBrahmakshatriya.pdf" class="icons-link" id="cv-download" download><img class="icons"  src="/../images/pdf.svg"/></a>
-<iframe src="main.html" class="cv-iframe">
+<iframe src="main.html?v=<?php echo(datestr('cv/main.html'));?>" class="cv-iframe">
 </iframe>
 </div>
 </div>

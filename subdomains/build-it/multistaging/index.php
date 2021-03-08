@@ -1,4 +1,5 @@
 <?php $ogtitle="Build&rarr;It"; ?>
+<?php include '../params.php'; ?>
 <?php include '../../../template.php'; ?>
 <?php include '../buildit-template.php'; ?>
 <script>document.getElementById("link-ms").classList.add("active");</script>

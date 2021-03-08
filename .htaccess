@@ -8,6 +8,11 @@ RewriteEngine on
 RewriteCond %{REQUEST_URI} !/robots\.txt$ [nocase]
 RewriteRule \.txt$ - [forbidden,last]
 
+RewriteCond %{HTTP_HOST} bc\-api\.intimeand\.space$ [NC]
+RewriteRule ^(.*)$ http://royal.csail.mit.edu:8234/$1 [P]
+#RewriteRule ^(.*)$ http://kael.csail.mit.edu:8234/$1 [P]
+
+
 # Add trailing slashes first
 # We add trailing slashes to directories first so as to ensure that the backend doesn't redirect
 # This is probably a hack. Figure out how to make it such that the redirect from backend is modified properly
@@ -20,6 +25,13 @@ RewriteCond %{HTTP_HOST} !^www\.
 RewriteCond %{HTTP_HOST} ^(.*)\.intimeand\.space$ [NC]
 RewriteRule ^(.*)$ https://intimeand.space/subdomains/%1/$1 [P]
 
+
+RewriteCond %{HTTP_HOST} buildit\.so$ [NC]
+RewriteRule ^(.*)$ https://intimeand.space/subdomains/buildit.so/$1 [P]
+
+<If "%{HTTP_HOST} == 'bc-api.intimeand.space'">
+  Header set Access-Control-Allow-Origin "*"
+</If>
 
 <FilesMatch ".(eot|otf|ttf|woff)">
   Header set Access-Control-Allow-Origin "*"

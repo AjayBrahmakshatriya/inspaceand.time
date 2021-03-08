@@ -1,9 +1,21 @@
+::-webkit-scrollbar{width:8px;height:8px;background:#292a2d}::-webkit-scrollbar-thumb{background:#888}::-webkit-scrollbar-thumb:hover{background:#dcdcdc}
 
+@media screen and (max-width: 45em) {
+	::-webkit-scrollbar{
+		display: none;
+	}
+}
 @font-face {
 font-family: 'optima';
 font-style: normal;
 font-weight: normal;
 src: local('optima'), url('https://intimeand.space/css/optima.woff') format('woff');
+}
+@font-face {
+font-family: 'consolas';
+font-style: normal;
+font-weight: normal;
+src: local('consolas'), url('https://intimeand.space/css/consolas.woff') format('woff');
 }
 html {
 	height: 100%;
@@ -13,17 +25,29 @@ body {
 	padding: 0;
 	/*font-family: optima;*/
 	font-family: monospace;
-	font-size: 1em;
+	font-size: 1.2em;
 	/*background-color: rgb(225, 225, 230);*/
 	background-color: #292a2d;
 	/*color: rgb(20, 20, 25);*/
 	color: #a9a9b3;
 	height: 100%;
 	overflow: hidden;
+	display: flex;
+	flex-flow: column;
+}
+.links-bar{
+	width: 100%;	
+	z-index: 100;
+	flex: 0 1 auto;
 }
 .container {
-	height: 100%;
-	overflow: auto;
+	/* height: 100%; */
+	/*overflow: auto;*/
+	overflow-y: scroll;
+	top: 0px;
+	flex: 1 1 auto;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 a {
 	color: inherit;
@@ -31,7 +55,7 @@ a {
 	border-bottom: 1px solid;
 }
 a:hover {
-	padding-bottom: 2px;
+	padding-bottom: 1px;
 }
 a img {
 	border-bottom: none;
@@ -40,20 +64,20 @@ a img:hover {
 	border-bottom: none;
 }
 .links {
-	display: block;
-	width: 100%;
+	display: inline-block;
+	/*width: 100%;*/
 	text-align: left;
 	/*background-color: rgb(20, 20, 25);*/
 	background-color: #212020;
-	position: fixed;
-	top: 0em;
+	position: relative;
 	z-index: 10;
+	width: auto;
 }
 .links a {
 	padding: 1em 2em;
 	display: inline-block;
 	text-decoration: none;
-	color: rgb(225, 225, 230);
+	color: #a9a9b3;
 	border-bottom: none;
 	height: 1em;
 }
@@ -67,10 +91,14 @@ a img:hover {
 	margin: 0;
 	padding: 0;
 	text-align: right;
-	position: fixed;
+	position: relative;
+	margin-top: -3em;
 	top: 0em;
-	z-index: 21;
+	z-index: 5;
 	right: 1em;
+	height: 3em;
+	background-color: #212020;
+	left: 0px;
 }
 .links-right img {
 	padding: 9px;
@@ -78,14 +106,14 @@ a img:hover {
 }
 @media screen and (max-width: 45em) {
 	.links-right {
-		top: 3em;	
 		text-align: center;
 		width: 100%;
 		right: 0em;
+		margin-top: 0px;
 	}
 	.links {
-		height: 5.5em;
 		text-align: center;
+		width: 100%;
 	}
 	.links a {
 		padding: 1em 1em;
@@ -122,14 +150,14 @@ a img:hover {
 	text-align: left;
 	/*background-color: rgb(215, 215, 220);*/
 	background-color: #212020;
-	position: fixed;
-	top: 3em;
+	position: relative;
+	top: 0em;
 	z-index: 10;
 	/*box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.3);*/
 }
 @media screen and (max-width: 45em) {
 	.sub-links {
-		top: 5.5em;
+		text-align: center;
 	}
 }
 .sub-links a {
@@ -153,7 +181,7 @@ a img:hover {
 
 
 article {
-	margin: 7em auto;
+	margin: 3em auto;
 	margin-bottom: 2em;
 	position: relative;
 	text-align: justify;
@@ -178,9 +206,7 @@ article h2 {
 }
 @media screen and (max-width: 45em) {
 	article {
-		width: 90%;
 		padding: 0em 0em;
-		margin: 10em auto;
 	}
 	article h1 {
 		font-size: 1.5em;
@@ -255,9 +281,6 @@ article .profile {
 	border-top: solid 1px rgb(200, 200, 200);
 	color: rgb(150, 150, 165);
 }
-.footer a:hover {	
-	color: rgb(20, 20, 25);
-}
 iframe {
 	border: none;
 	width: 100%
@@ -281,7 +304,6 @@ iframe {
 	font-family: monospace;
 	padding: 1em;
 	line-height: 1.5em;
-	width: 100%;
 	overflow-wrap: break-word;
 	text-align: left;
 }
@@ -290,3 +312,11 @@ iframe {
 	color: #36663f;
 }
 
+.publication {
+	padding: 1em;
+	background-color: #212020;
+}
+
+.publication-title {
+	color: white;
+}
