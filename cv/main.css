@@ -40,7 +40,7 @@ src: local('optima'), url('https://intimeand.space/css/optima.woff') format('wof
 
 body {
 	font-family: optima;
-	line-height: 2em;
+	line-height: 1.5em;
 }
 a {
 	color: black;

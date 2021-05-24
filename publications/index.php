@@ -3,9 +3,16 @@
 <script>document.getElementById("link-publications").classList.add("active");</script>
 
 <p class="publication">
+<b class="publication-title">Taming the Zoo: A Unified Graph Compiler Framework for Novel Architectures</b> <br>
+<b>Ajay Brahmakshatriya</b>, Emily Furst, Victor Yang, Claire Hsu, Changwan Hong, Max Ruttenberg, Yunming Zhang, Tommy Jung, Dustin Richmond, Michael Taylor, Julian Shun, Mark Oskin, Daniel Sanchez, Saman Amarasinghe <br>
+To appear: Proceedings of the 2021 International Symposium on Computer Architecture [<a href="https://intimeand.space/docs/ugf-isca.pdf" target="_blank">PDF</a>]
+</p>
+<p>&nbsp;</p>
+
+<p class="publication">
 <b class="publication-title">BuildIt: A type based multistage programming framework for code generation in C++</b> <br>
 <b>Ajay Brahmakshatriya</b>, Saman Amarasinghe <br>
-To appear: Proceedings of the 2021 International Symposium on Code Generation and Optimization [<a href="https://intimeand.space/docs/buildit.pdf" target="_blank">CGO 2021</a>]
+Proceedings of the 2021 International Symposium on Code Generation and Optimization [<a href="https://intimeand.space/docs/buildit.pdf" target="_blank">CGO 2021</a>]
 </p>
 <p>&nbsp;</p>
 
@@ -13,7 +20,7 @@ To appear: Proceedings of the 2021 International Symposium on Code Generation an
 <p class="publication">
 <b class="publication-title">Techniques for compiling graph applications for GPUs</b> <br>
 <b>Ajay Brahmakshatriya</b>, Yunming Zhang, Changwan Hong, Shoaib Kamil, Julian Shun, Saman Amarasinghe <br>
-To appear: Proceedings of the 2021 International Symposium on Code Generation and Optimization [<a href="https://intimeand.space/docs/gpu-graphit.pdf" target="_blank">CGO 2021</a>]<br>
+Proceedings of the 2021 International Symposium on Code Generation and Optimization [<a href="https://intimeand.space/docs/gpu-graphit.pdf" target="_blank">CGO 2021</a>]<br>
 <b>Best Paper Award at CGO'21</b>
 </p>
 <p>&nbsp;</p>
@@ -24,7 +31,7 @@ To appear: Proceedings of the 2021 International Symposium on Code Generation an
 <b class="publication-title">Universal Graph Framework: Achieving High-Performance across Algorithms, Graph Types, and Architectures</b> <br>
 <b>Ajay Brahmakshatriya</b><br>
 SM Thesis, Massachuesetts Institute of Technology<br>
-Cambridge, MA Aug, 2020 [<a href="http://groups.csail.mit.edu/commit/papers/2020/ajay-sm-thesis.pdf" target="_blank">COMMIT</a>]
+Cambridge, MA Aug, 2020 [<a href="https://intimeand.space/docs/ajay-sm-thesis.pdf" target="_blank">PDF</a>]
 </p>
 <p>&nbsp;</p>
 
