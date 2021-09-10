@@ -30,6 +30,7 @@ TD.eqno			{ }	/* equation-number cells */
 /* document-specific styles come next */
 SPAN.bf		{   }
 DIV.navigation		{   }
+SPAN.textbf		{ font-weight: bold  }
 
 @font-face {
 font-family: 'optima';

@@ -5,12 +5,12 @@
 <p class="publication">
 <b class="publication-title">Taming the Zoo: A Unified Graph Compiler Framework for Novel Architectures</b> <br>
 <b>Ajay Brahmakshatriya</b>, Emily Furst, Victor Yang, Claire Hsu, Changwan Hong, Max Ruttenberg, Yunming Zhang, Tommy Jung, Dustin Richmond, Michael Taylor, Julian Shun, Mark Oskin, Daniel Sanchez, Saman Amarasinghe <br>
-To appear: Proceedings of the 2021 International Symposium on Computer Architecture [<a href="https://intimeand.space/docs/ugf-isca.pdf" target="_blank">PDF</a>]
+Proceedings of the 2021 International Symposium on Computer Architecture [<a href="https://intimeand.space/docs/ugf-isca.pdf" target="_blank">PDF</a>]
 </p>
 <p>&nbsp;</p>
 
 <p class="publication">
-<b class="publication-title">BuildIt: A type based multistage programming framework for code generation in C++</b> <br>
+<b class="publication-title">BuildIt: A Type-Based Multistage Programming Framework for Code Generation in C++</b> <br>
 <b>Ajay Brahmakshatriya</b>, Saman Amarasinghe <br>
 Proceedings of the 2021 International Symposium on Code Generation and Optimization [<a href="https://intimeand.space/docs/buildit.pdf" target="_blank">CGO 2021</a>]
 </p>
@@ -18,10 +18,18 @@ Proceedings of the 2021 International Symposium on Code Generation and Optimizat
 
 
 <p class="publication">
-<b class="publication-title">Techniques for compiling graph applications for GPUs</b> <br>
+<b class="publication-title">Compiling Graph Applications for GPUs with GraphIt</b> <br>
 <b>Ajay Brahmakshatriya</b>, Yunming Zhang, Changwan Hong, Shoaib Kamil, Julian Shun, Saman Amarasinghe <br>
 Proceedings of the 2021 International Symposium on Code Generation and Optimization [<a href="https://intimeand.space/docs/gpu-graphit.pdf" target="_blank">CGO 2021</a>]<br>
 <b>Best Paper Award at CGO'21</b>
+</p>
+<p>&nbsp;</p>
+
+
+<p class="publication">
+<b class="publication-title">Domain-Specific Language Abstractions for Compression</b> <br>
+Jessica Ray, <b>Ajay Brahmakshatriya</b>, Richard Wang, Shoaib Kamil, Albert Reuther, Vivienne Sze, Saman Amarasinghe<br>
+Proceedings of the Data Compression Conference (DCC), 2021 [<a href="https://sigport.org/documents/domain-specific-language-abstractions-compression" target="_blank">DCC 2021</a>]<br>
 </p>
 <p>&nbsp;</p>
 
