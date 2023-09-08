@@ -257,7 +257,7 @@ function set_animation_gear() {
 }
 
 function fetchAndDisplayOutput(requestId, sid, params) {
-	var server = "https://bc-api.intimeand.space";
+	var server = "https://bc-api-dev.intimeand.space";
 	var dest = server + "/result/" + requestId + params;
  
 	var xhr = new XMLHttpRequest();
@@ -300,7 +300,7 @@ function fetchAndDisplayOutput(requestId, sid, params) {
 }
 
 function fetchAndDisplayError(requestId, sid, params) {	
-	var server = "https://bc-api.intimeand.space";
+	var server = "https://bc-api-dev.intimeand.space";
 	var dest = server + "/error/" + requestId + params;
 	
 	var xhr = new XMLHttpRequest();
@@ -344,7 +344,7 @@ function fetchAndDisplayError(requestId, sid, params) {
 }
 
 function fetchInputFromPID(requestId, sid) {
-	var dest = "https://bc-api.intimeand.space/code/" + requestId;
+	var dest = "https://bc-api-dev.intimeand.space/code/" + requestId;
 	
 	var xhr = new XMLHttpRequest();
 	xhr.open("GET", dest, true);
@@ -375,7 +375,7 @@ function fetchInputFromPID(requestId, sid) {
 
 function checkRequest(requestId, sid, params) {
 		
-	var server = "https://bc-api.intimeand.space";
+	var server = "https://bc-api-dev.intimeand.space";
 	var dest = server + "/status/" + requestId + params;
 	var xhr = new XMLHttpRequest();
 	xhr.open("GET", dest, true);
@@ -428,7 +428,7 @@ function buildit_stage(sid) {
 	createStageBox(sid+1);
 	running = 1;
         var checkbox = document.getElementById("recover-var-names");
-	server = "https://bc-api.intimeand.space";
+	server = "https://bc-api-dev.intimeand.space";
 	if (checkbox.checked) {
 		params = "?recover_vars=1"	
 		dest = server + "/run_with_vars"
@@ -458,7 +458,7 @@ function share_this_snippet() {
 	if (code_body.className === "com-error")
 		return;
 
-	var dest = "https://bc-api.intimeand.space/run";
+	var dest = "https://bc-api-dev.intimeand.space/run";
 	var xhr = new XMLHttpRequest();
 	xhr.open("POST", dest, true);
 	

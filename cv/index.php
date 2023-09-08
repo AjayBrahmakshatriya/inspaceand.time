@@ -15,6 +15,7 @@ cvframe.onload = function() {
 		cvframe.style.height = (cvframe.contentWindow.document.body.scrollHeight) + 'px';
 	};
 	cvframe.style.height = (cvframe.contentWindow.document.body.scrollHeight) + 'px';
+	cvframe.contentWindow.document.body.style.overflow = "hidden";
 
 }
 </script>

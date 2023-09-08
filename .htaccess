@@ -1,3 +1,4 @@
+
 RedirectMatch 403 ^/.git/.*$
 RedirectMatch 403 ^/.git/?$
 #RedirectMatch 403 .*\.txt$
@@ -9,9 +10,18 @@ RewriteCond %{REQUEST_URI} !/robots\.txt$ [nocase]
 RewriteRule \.txt$ - [forbidden,last]
 
 RewriteCond %{HTTP_HOST} bc\-api\.intimeand\.space$ [NC]
-RewriteRule ^(.*)$ http://royal.csail.mit.edu:8234/$1 [P]
-#RewriteRule ^(.*)$ http://kael.csail.mit.edu:8234/$1 [P]
+#RewriteRule ^(.*)$ http://royal.csail.mit.edu:8234/$1 [P]
+RewriteRule ^(.*)$ http://kael.csail.mit.edu:8234/$1 [P]
 
+RewriteCond %{HTTP_HOST} bc\-api\-dev\.intimeand\.space$ [NC]
+RewriteRule ^(.*)$ http://kael.csail.mit.edu:8236/$1 [P]
+
+#SSLOptions +StdEnvVars +StrictRequire
+#SSLOptions +StdEnvVars +OptRenegotiate -StrictRequire +FakeBasicAuth -ExportCertData 
+#SSLRequireSSL
+#SSLVerifyClient require
+#SSLVerifyDepth 10
+#SSLVerifyClient optional_no_ca
 
 # Add trailing slashes first
 # We add trailing slashes to directories first so as to ensure that the backend doesn't redirect
@@ -32,6 +42,15 @@ RewriteRule ^(.*)$ https://intimeand.space/subdomains/buildit.so/$1 [P]
 <If "%{HTTP_HOST} == 'bc-api.intimeand.space'">
   Header set Access-Control-Allow-Origin "*"
 </If>
+
+<If "%{HTTP_HOST} == 'bc-api-dev.intimeand.space'">
+  Header set Access-Control-Allow-Origin "*"
+</If>
+
+<If "%{HTTP_HOST} == 'bc-api-test.intimeand.space'">
+  Header set Access-Control-Allow-Origin "*"
+</If>
+
 
 <FilesMatch ".(eot|otf|ttf|woff)">
   Header set Access-Control-Allow-Origin "*"
