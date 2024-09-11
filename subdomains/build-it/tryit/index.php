@@ -11,7 +11,7 @@ function datestr2($fname) {
 
 <!-- content from buildit template -->
 <div class="sub-links">
-	<a href="/" id="link-home">Build-It</a><a href="/tryit" id="link-demo">try-it</a><a href="/d2x" id="link-d2x">D2X</a><a href="/publications" id="link-publications">publications</a>
+	<a href="/" id="link-home">Build-It</a><a href="/tryit" id="link-demo">try-it</a><a href="/d2x" id="link-d2x">D2X</a><a href="/publications" id="link-publications">publications</a><a href="/tutorial" id="link-tutorial">tutorials</a>
 	<?php if(isset($link_to_main) && $link_to_main == 1) {?><a href="https://intimeand.space/" style="float:right">intimeand.space</a><?php } ?>
 </div>
 </div>
@@ -696,7 +696,9 @@ static void bar(void) {
 }
 
 int main(int argc, char* argv[]) {
-	block::c_code_generator::generate_code(builder::builder_context().extract_function_ast(bar, "bar"), std::cout, 0);
+	builder::builder_context context;
+	auto ast = context.extract_function_ast(bar, "bar");
+	block::c_code_generator::generate_code(ast, std::cout, 0);
 	return 0;
 }
 

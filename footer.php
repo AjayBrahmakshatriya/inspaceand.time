@@ -12,6 +12,13 @@
 &nbsp;
 <?php } ?>
 <a href="https://fonts.google.com/specimen/Inria+Sans">Inria Sans</a>
+<?php if (!(isset($no_flat_icons) && $no_flat_icons == 1)) { ?>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<a href="https://www.flaticon.com/">Icons from Flaticons</a>
+<?php } ?>
 </div>
 </div>
 

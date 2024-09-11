@@ -50,8 +50,8 @@ listen to it anymore and then switch to another one. The roots to this habit is 
 was pretty constrained growing up thanks to the wonders of dialup internet. 
 <br><br>
 Music has also shaped my experiences and relations in a variety of ways. Most of my close friends know me as the guy 
-who will spam music recommendations all day if you don't explicity tell him to stop. But I have also started some
-friendships over exchanging music recommendations, so it's not all bad. Natually I have a lot of thoughts about what 
+who will spam music recommendations all day if you don't explicitly tell him to stop. But I have also started some
+friendships over exchanging music recommendations, so it's not all bad. Naturally I have a lot of thoughts about what 
 music means to me and for instance why I put a very heavy focus on the lyrics in the songs more than the music, but 
 that warrants another (or several) post. <b>This one today is just about how music has created associations with 
 particular events or phases in my mind.</b> Associations so strong that I cannot think of one without immediately being
@@ -98,7 +98,7 @@ Finally, most of grad school is characterized by a heavy dependence on Radiohead
 one are pretty obvious. For the uninitiated, I would say Radiohead is what you turn to when you feel you are not 
 in enough pain. When, you need that extra juicy bit of gut wrenching sadness! Ofcourse, my grad school experience 
 is not all that sad. These are just coping mechanisms - "haha, look Radiohead sad!". If you want to get a taste of 
-Radiohead, you shoud listen to <a href="https://open.spotify.com/track/35YyxFpE0ZTOoqFx5bADW8" target="_blank">Nude</a>
+Radiohead, you should listen to <a href="https://open.spotify.com/track/35YyxFpE0ZTOoqFx5bADW8" target="_blank">Nude</a>
 from the album <a href="https://open.spotify.com/album/5vkqYmiPBYLaalcmjujWxK" target="_blank">In Rainbows</a>, which 
 is also my most played track on Spotify at a whopping 7,625 minutes of playtime.
 <br><br>

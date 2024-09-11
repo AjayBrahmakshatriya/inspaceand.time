@@ -8,6 +8,16 @@
 }
 </style>
 
+<a href="https://thoughts.intimeand.space/fascination">
+<div width="80%" class="link-blog">
+<h1 style="text-align: left; margin-top:0">Following Your Fascinations for a Fulfilling Future!</h2>
+<h2 style="text-align: left">8th February 2024, Medium read - 15 mins</h2>
+</div>
+</a>
+<br><br>
+
+
+
 <a href="https://thoughts.intimeand.space/crabs">
 <div width="80%" class="link-blog">
 <h1 style="text-align: left; margin-top:0">How do we be better crabs?</h2>

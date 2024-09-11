@@ -39,6 +39,10 @@ RewriteRule ^(.*)$ https://intimeand.space/subdomains/%1/$1 [P]
 RewriteCond %{HTTP_HOST} buildit\.so$ [NC]
 RewriteRule ^(.*)$ https://intimeand.space/subdomains/buildit.so/$1 [P]
 
+RewriteCond %{HTTP_HOST} ajay\.hair$ [NC]
+RewriteRule ^(.*)$ https://intimeand.space/subdomains/ajay.hair/$1 [P]
+
+
 <If "%{HTTP_HOST} == 'bc-api.intimeand.space'">
   Header set Access-Control-Allow-Origin "*"
 </If>

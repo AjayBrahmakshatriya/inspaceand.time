@@ -5,6 +5,14 @@
 <script>document.getElementById("link-publications").classList.add("active");</script>
 
 <h2>Conference Publications</h2>
+
+<p class="publication">
+<b class="publication-title">NetBlocks: Staging Layouts for High-Performance Custom Host Network Stacks</b> <br>
+<u>Ajay Brahmakshatriya</u>, Chris Rinard, Manya Ghobadi, Saman Amarasinghe <br>
+Proceedings of the 2024 SIGPLAN Conference on Programming Languages Design and Implementation [<a href="https://intimeand.space/docs/PLDI24_NetBlocks.pdf" target="_blank">PLDI 2024</a>]
+</p>
+<p>&nbsp;</p>
+
 <p class="publication">
 <b class="publication-title">D2X: An eXtensible conteXtual Debugger for Modern DSLs</b> <br>
 <u>Ajay Brahmakshatriya</u>, Saman Amarasinghe <br>

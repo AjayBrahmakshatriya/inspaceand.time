@@ -1,0 +1,29 @@
+body {
+	font-family: 'Dosis', sans-serif;
+	/*background-color: #F9EFDB;*/
+	background-color: #001111;
+	color: #ffeeff;
+
+	padding: 0px 0px;
+	margin: 0px 0px;
+	height: 100%;
+	display: flex;
+}
+
+h1 {
+	text-align: center;
+}
+
+#article {
+	position: relative;	
+	margin: 0em auto;
+	width: 80em;
+	min-height: 20em;
+	height: 40em;
+	padding: 0em 0em;
+	text-align: justify;
+}
+
+#main-panel {
+	width: 100%;
+}
